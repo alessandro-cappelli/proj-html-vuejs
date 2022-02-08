@@ -21,6 +21,7 @@
                 </div>
             </div>
         </div>
+    </section>
 </template>
 
 <script>
@@ -40,14 +41,12 @@ export default {
     color: white;
 }
 
-.ms_container_social 
 ul li{
     display: inline-block;
     text-decoration: none;
     margin-left: 15px;
 }
 
-.ms_container_social 
 ul li a{
     color: white;
 }

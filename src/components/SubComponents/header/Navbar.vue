@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <img src="../assets/img/avada-movers-logo.png">
+                    <!-- <img src="../assets/img/avada-movers-logo.png"> -->
                 </div>
 
                 <div class="col d-flex justify-content-end ms_container_nav">
@@ -15,7 +15,6 @@
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
-
                     </div>
                 </div>
             </div>
@@ -29,8 +28,18 @@ export default {
 </script>
 
 <style lang='scss' scoped>
-.ms_container_social
 ul li{
     display: inline-block;
+    margin-left: 45px;
+
+    a{
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    
 }
+
+
 </style>
