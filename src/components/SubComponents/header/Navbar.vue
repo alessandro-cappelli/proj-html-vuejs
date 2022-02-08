@@ -2,7 +2,7 @@
     <div class="ms_container_nav">
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col-2">
                     <!-- <img src="../assets/img/avada-movers-logo.png"> -->
                 </div>
 
@@ -28,6 +28,11 @@ export default {
 </script>
 
 <style lang='scss' scoped>
+.row{
+    height: 60px;
+    align-items: center;
+}
+
 ul li{
     display: inline-block;
     margin-left: 45px;
@@ -38,8 +43,20 @@ ul li{
         font-weight: bold;
     }
 
-    
+    a:hover{
+        color: #6abf17;
+    }
 }
 
+.button{
+    background-color: #1775bf;
+    
+    
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+}
 
 </style>
