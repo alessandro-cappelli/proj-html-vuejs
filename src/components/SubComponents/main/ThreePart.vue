@@ -82,7 +82,6 @@ export default {
         color: white;
         text-decoration: none;
         text-transform: uppercase;
-        font-weight: bold;
         background-color: #1975c0;
         padding-top: 8px;
         padding-bottom: 8px;
