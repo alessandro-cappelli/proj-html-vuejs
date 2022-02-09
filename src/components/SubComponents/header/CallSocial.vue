@@ -24,11 +24,13 @@
     </section>
 </template>
 
+
 <script>
 export default {
     name: 'CallSocial',
 }
 </script>
+
 
 <style lang='scss' scoped>
 .row{
