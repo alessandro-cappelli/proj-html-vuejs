@@ -94,6 +94,7 @@ img{
             line-height: 30px;
             margin-top: 14px;
             margin-bottom: 107px;
+            font-style: oblique;
         }
 
         a{
