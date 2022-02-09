@@ -28,12 +28,12 @@ export default {
 }
 
 h1{
-  font-size: 45px;
+  font-size: 65px;
 }
 
 p{
   color: #777777;
-  font-size: 11px;
+  font-size: 16px;
 }
 
 .ms_container_slogan{

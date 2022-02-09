@@ -5,6 +5,8 @@
         <SecondPart />
 
         <ThreePart />
+
+        <FourPart/>
     </section>
 </template>
 
@@ -12,6 +14,8 @@
 import FirstPart from './SubComponents/main/FirstPart.vue'
 import SecondPart from './SubComponents/main/SecondPart.vue'
 import ThreePart from './SubComponents/main/ThreePart.vue'
+import FourPart from './SubComponents/main/FourPart.vue'
+
 
 
 export default {
@@ -21,6 +25,7 @@ export default {
         FirstPart,
         SecondPart,
         ThreePart,
+        FourPart,
     }
 }
 </script>
