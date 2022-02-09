@@ -52,20 +52,17 @@ h1{
     line-height: 30px;
 }
 
-span{
+a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
     background-color: #1975c0;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 20px;
-    cursor: pointer;
-
-    a{
-        color: white;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-weight: bold;
-    }
 }
+
 </style>
