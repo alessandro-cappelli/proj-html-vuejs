@@ -39,8 +39,6 @@ export default {
 .ms_container_threepart{
     background-image: url('../../../assets/img/avada-movers-movewithease-background-new.jpg');
     background-size: cover;
-    height: 900px;
-    
 }
 
 .row{
@@ -52,6 +50,8 @@ export default {
         color: white;
         padding-top: 10px;
         padding-bottom: 10px;
+        margin-top: 145px;
+        margin-bottom: 145px;
     }
 
     .ms_container{
@@ -68,12 +68,15 @@ export default {
     }
     h1{
         font-size: 48px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #97f839;
     }
 }
 
 .ms_part_center{
     line-height: 30px;
     margin-bottom: 35px;
+    margin-top: 35px;
 }
 
 .ms_part_end{
