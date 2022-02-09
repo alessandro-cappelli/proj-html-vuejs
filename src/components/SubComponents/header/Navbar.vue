@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-2">
-                    <!-- <img src="../assets/img/avada-movers-logo.png"> -->
+                    <img src="../../../assets/img/avada-movers-logo.png">
                 </div>
 
                 <div class="col d-flex justify-content-end ms_container_nav">
@@ -21,15 +21,19 @@
         </div>
 </template>
 
+
 <script>
 export default {
-    name: 'Navbar'
+    name: 'Navbar',
+
+
 }
 </script>
 
-<style lang='scss' scoped>
+
+<style lang="scss" scoped>
 .row{
-    height: 60px;
+    height: 75px;
     align-items: center;
 }
 
@@ -59,4 +63,11 @@ ul li{
     }
 }
 
+img{
+    width: 100%;
+}
+
+.ms_container_nav{
+    margin-top: 15px;
+}
 </style>

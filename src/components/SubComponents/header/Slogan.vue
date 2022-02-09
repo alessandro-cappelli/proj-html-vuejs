@@ -20,7 +20,7 @@ export default {
 </script>
 
 
-<style lang='scss' scoped>
+<style lang="scss" scoped>
 .row{
   text-align: center;
   text-transform: uppercase;
@@ -36,4 +36,14 @@ p{
   font-size: 11px;
 }
 
+.ms_container_slogan{
+  background-image: url("../../../assets/img/avada-movers-homeherobackground-final.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:65vh;
+}
+
+.col{
+  margin-top: 312px;
+}
 </style>
