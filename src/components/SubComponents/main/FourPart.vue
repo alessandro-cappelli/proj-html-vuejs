@@ -11,34 +11,28 @@
 
         <div class="container ms_container_col">
             <div class="row justify-content-between ms_row_col">
-                <div class="col-3">
-                    <img src="../../../assets/img/avada-movers-serviceonephoto-final.jpg">
+                <div class="col-4">
+                    <img src="../../../assets/img/avada-movers-johndoe-final.jpg">
                     <div>
-                        <h3>Two Man Teams</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam numquam deleniti sit, nulla quibusdam non voluptates pariatur repudiandae ad nam </p>
+                        <h3>John Doe</h3>
+                        <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam numquam deleniti sit, nulla quibusdam non voluptates pariatur repudiandae ad nam"</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <img src="../../../assets/img/avada-movers-janedoe-final.jpg">
+                    <div>
+                        <h3>Jane Doe</h3>
+                        <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam numquam deleniti sit, nulla quibusdam non voluptates pariatur repudiandae ad nam"</p>
                         <div class="bottom">
-                            <span><a href="#">read more</a></span>
+                            <span><a href="#">read more testimonials</a></span>
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
-                    <img src="../../../assets/img/avada-movers-servicetwophoto-final.jpg">
+                <div class="col-4">
+                    <img src="../../../assets/img/avada-movers-johnsmith-final.jpg">
                     <div>
-                        <h3>Two Man Teams</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam numquam deleniti sit, nulla quibusdam non voluptates pariatur repudiandae ad nam </p>
-                        <div class="bottom">
-                            <span><a href="#">read more</a></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <img src="../../../assets/img/avada-movers-servicethreephoto-final.jpg">
-                    <div>
-                        <h3>Two Man Teams</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam numquam deleniti sit, nulla quibusdam non voluptates pariatur repudiandae ad nam </p>
-                        <div class="bottom">
-                            <span><a href="#">read more</a></span>
-                        </div>
+                        <h3>John Smith</h3>
+                        <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam numquam deleniti sit, nulla quibusdam non voluptates pariatur repudiandae ad nam"</p>
                     </div>
                 </div>
             </div>
@@ -78,28 +72,28 @@ export default {
 }
 
 img{
-    width: 100%;
+    width: 50%;
+    border-radius: 100%;
 }
 
-.col-3{
-    background-color: #e9e9e9;
-    padding-top: 12px;
-    padding-bottom: 12px;
+.col-4{
+    
 
     div{
-        background-color: white;
+       
         margin-top: 10px;
         padding-bottom: 16px;
 
         h3{
             color: #1975c0;
             padding-top: 25px;
+            font-size: 27px;
         }
 
         p{
             line-height: 30px;
             margin-top: 14px;
-            margin-bottom: 30px;
+            margin-bottom: 107px;
         }
 
         a{
@@ -124,5 +118,6 @@ img{
 .ms_row_col{
     margin-bottom: 100px;
 }
+
 
 </style>
