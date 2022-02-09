@@ -85,10 +85,11 @@ img{
     div{
         background-color: white;
         margin-top: 10px;
-        padding-bottom: 40px;
+        padding-bottom: 16px;
 
         h3{
             color: #1975c0;
+            padding-top: 25px;
         }
 
         p{
