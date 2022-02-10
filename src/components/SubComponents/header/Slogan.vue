@@ -40,7 +40,7 @@ p{
   background-image: url("../../../assets/img/avada-movers-homeherobackground-final.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height:65vh;
+  height:750px;
 }
 
 .col{
