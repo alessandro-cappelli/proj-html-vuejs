@@ -28,8 +28,8 @@ export default {
 }
 
 .col{
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 160px;
+    margin-bottom: 160px;
 }
 
 .container-fluid{

@@ -15,6 +15,8 @@
                         <li><a href="#">Blog</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
+
+                    <span><a class="button" href="#">free quote</a></span>
                     </div>
                 </div>
             </div>
@@ -52,15 +54,20 @@ ul li{
     }
 }
 
+span{
+    margin-left: 40px;
+}
+
 .button{
-    background-color: #1775bf;
-    
-    
-    a{
-        text-decoration: none;
-        color: white;
-        font-weight: bold;
-    }
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #1975c0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
 }
 
 img{
